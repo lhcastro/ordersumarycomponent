@@ -1,0 +1,158 @@
+* { 
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background: #E0E8FF url(/images/pattern-background-desktop.svg) repeat-x right top;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+main {
+    background: #fff;
+    width: 20rem;
+    height: 30rem;
+    align-self: center;
+    margin-top: 2rem;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+img { 
+    border-top-right-radius: 1rem; 
+    border-top-left-radius: 1rem; 
+}
+
+
+#summarycard { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+}
+
+#summarycard h1 { 
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    color: #1F2F56;
+}
+
+#summarycard p{ 
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: grey;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    
+}
+
+#planinfoscontainer { 
+    display: flex;
+    flex-direction: row;
+    background: #F5F7FF;
+    padding: 2rem;
+    align-items: center;
+    border-radius: 0.5rem;
+    height: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    
+    
+}
+
+#planinfoscontainer img { 
+    margin-left: -1rem;
+    
+}
+
+#planinfoscontainer div { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: -1rem;
+    
+}
+
+#planinfoscontainer div  p {
+    font-size: 0.8rem;
+}
+
+#planinfoscontainer div span {
+    margin-bottom: -1rem;
+    font-weight: 700;
+    font-size: 0.8rem;
+
+}
+
+#planinfoscontainer a {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+}
+
+#planinfoscontainer a:active, #planinfoscontainer a:hover{
+    color:hsla(241, 85%, 68%, 0.87) ;
+}
+
+button {
+    background-color: hsl(245, 75%, 52%);
+    border: none;
+    border-radius: 0.5rem;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    height: 2rem;
+    width: 15rem;
+    margin-bottom: 0.9rem;
+    box-shadow: 0 0.4rem 1rem hsla(241, 85%, 68%, 0.87) ;
+    
+}
+
+button:active, button:hover{
+    background: hsla(241, 85%, 68%, 0.87)
+}
+
+#cancelorder:link, #cancelorder:visited {
+    text-decoration: none;
+    color: gray;
+    font-weight: 900;
+    font-size: 0.7rem;
+
+}
+
+#cancelorder:active, #cancelorder:hover{
+    color: #1F2F56;
+}
+
+
+.attribution { 
+    font-size: 0.8rem;
+    margin-top: 4rem;
+}
+
+.attribution a {
+    font-size: 0.9rem;
+}
+
+
+
