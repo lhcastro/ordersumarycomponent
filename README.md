@@ -33,8 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/lhcastro/ordersumarycomponent)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [GitHub Pages](https://lhcastro.github.io/ordersumarycomponent/)
 
 ## My process
 - After setting up the enviroment. I started with the background, and then tried my best to get the elements the same as the design from top to bottom. 
@@ -74,7 +73,7 @@ I still need to learn more about how to layout better the elements, and learn ho
 
 ### Useful resources
 
-- [Example resource 1](https://www.w3schools.com/cssref/default.asp) - This helped me to get some css reference. 
+- [w3schools](https://www.w3schools.com/cssref/default.asp) - This helped me to get some css reference. 
 
 
 
