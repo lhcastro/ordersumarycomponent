@@ -7,7 +7,7 @@
 
 
 body {
-    background: #E0E8FF url(/images/pattern-background-desktop.svg) repeat-x right top;
+    background: #E0E8FF url(./images/pattern-background-desktop.svg) repeat-x right top;
     display: flex;
     flex-direction: column;
     align-items: center;
